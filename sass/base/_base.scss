@@ -1,0 +1,80 @@
+:root{
+    --color-grey-light1:#f7f7f7;
+    --color-grey-light2:#eee;
+    --color-grey:#777;
+    --color-grey-2:#999;
+    --color-grey-3:#333;
+
+    --color-white:#fff;
+    --color-black:#000;
+
+    --color-primary:#23262D;
+    --color-primary-dark:#1C1E24;
+    --color-primary-light:#383c48;
+    --color-primary-vlight1:#65676C;
+    --color-primary-vlight:#7e859b;
+
+    --color-secondary:#D7A05D;
+    --color-secondary-dark:#765833;
+    --color-secondary-light:#DDAE75;
+
+    --bg-1400:87.5em;
+}
+$bg-1400:87.5em;
+$bg-1200:75em;
+$bg-1000:62.5em;
+$bg-900:56.5em;
+$bg-700:43.7em;
+$bg-600:37.5em;
+$bg-350:21.8em;
+
+
+*{
+    &,&::after,&::before{
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+}
+
+html{
+    font-size: 10px;
+
+    @media only screen and (max-width:$bg-1400){
+        font-size: 9px;   
+    }
+
+    @media only screen and (max-width:$bg-1200){
+        font-size: 8px;   
+    }
+
+    @media only screen and (max-width:$bg-1000){
+        font-size: 7px;   
+    }
+
+    @media only screen and (max-width:$bg-900){
+        font-size: 6px;   
+    }
+
+    @media only screen and (max-width:$bg-700){
+        font-size: 5px;   
+    }
+
+    @media only screen and (max-width:$bg-600){
+        font-size: 4px;   
+    }
+
+    @media only screen and (max-width:$bg-350){
+        font-size: 2px;   
+    }
+}
+
+body{
+    box-sizing: border-box;
+    // font-family: "Lato" , sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: grey;
+    font-size: 1.5rem;
+}
