@@ -40,8 +40,7 @@
     }
 
     &--white{
-    background-image: linear-gradient(to right,var(--color-primary),var(--color-grey-light1));
-
+        background-image: linear-gradient(to right,var(--color-primary),var(--color-grey-light1));
     }
 }
 
@@ -52,6 +51,10 @@
     display: inline-block;
     letter-spacing: 2px;
     color: var(--color-white);
+
+    // &--brown{
+
+    // }
 }
 
 
